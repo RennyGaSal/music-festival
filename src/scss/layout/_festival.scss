@@ -1,0 +1,25 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.about-festival {
+    padding: 2.5rem;
+    @include m.container;
+    @include m.tablet {
+        @include m.grid(2, 5rem);
+        align-items: center;
+    }
+    
+}
+
+.festival-content {
+    margin-top: 5rem;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    .date {
+        color: v.$cyan;
+        font-weight: 700;
+    }
+}
