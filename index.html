@@ -1,51 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Festival</title>
-    <link rel="stylesheet" href="build/css/app.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="build/css/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="container header-content">
-            <h1>Techno & EDM Festival</h1>
+      <div class="container header-content">
+        <h1>Techno & EDM Festival</h1>
 
-            <nav class="main-nav">
-                <a href="#">LineUp</a>
-                <a href="#">Gallery</a>
-                <a href="#">Tickets</a>
-            </nav>
-        </div>
+        <nav class="main-nav">
+          <a href="#">LineUp</a>
+          <a href="#">Gallery</a>
+          <a href="#">Tickets</a>
+        </nav>
+      </div>
     </header>
 
     <div class="video">
-        <div class="overlay">
-            <div class="container video-content">
-                <h2>Techno & EDM Fest</h2>
-                <p>July 2026, City, Country.</p>
-            </div>
+      <div class="overlay">
+        <div class="container video-content">
+          <h2>Techno & EDM Fest</h2>
+          <p>July 2026, City, Country.</p>
         </div>
-            <video autoplay muted loop>
-                <source src="video/dj.mp4" type="video/mp4" />
-                <source src="video/dj.ogv" type="video/ogg" />
-                <source src="video/dj.webm" type="video/webm" />
-            </video>
+      </div>
+      <video autoplay muted loop>
+        <source src="video/dj.mp4" type="video/mp4" />
+        <source src="video/dj.ogv" type="video/ogg" />
+        <source src="video/dj.webm" type="video/webm" />
+      </video>
+    </div>
+
+    <section class="about-festival">
+      <div class="image">
+        <img src="src/img/imagen_dj.jpg" alt="DJ at Mixing Table" />
+      </div>
+
+      <div class="festival-content">
+        <h2>Techno & EDM Festival</h2>
+        <p class="date">July 2026, City, Country</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quibusdam
+          animi provident officia omnis ratione reprehenderit aperiam beatae, ad
+          quod sit quae asperiores quidem explicabo doloremque eligendi nulla
+          voluptas non.
+        </p>
+      </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+      <h3>Line Up</h3>
+
+      <p class="day">Friday 21</p>
+      <div class="scenario-container">
+        <div class="scenario bg-yellow">
+          <p class="scenario-name">Techno</p>
+
+          <ul class="calendar">
+            <li>24:00 | <span>Adam Beyer</span></li>
+            <li>22:00 | <span>Carl Cox</span></li>
+            <li>20:00 | <span>HI-LO</span></li>
+            <li>19:00 | <span>Amelie Lens</span></li>
+            <li>18:00 | <span>CamelPhat</span></li>
+            <li>17:00 | <span>ARTBAT</span></li>
+          </ul>
         </div>
+        <!--.scenario-->
 
-        <section class="about-festival">
-            <div class="image">
-                <img src="src/img/imagen_dj.jpg" alt="DJ at Mixing Table">
-            </div>
+        <div class="scenario bg-cyan">
+          <p class="scenario-name">EDM</p>
 
-            <div class="festival-content">
-                <h2>Techno & EDM Festival</h2>
-                <p class="date">July 2026, City, Country</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quibusdam animi provident officia omnis ratione reprehenderit aperiam beatae, ad quod sit quae asperiores quidem explicabo doloremque eligendi nulla voluptas non.</p>
-            </div>
-        </section>
-</body>
+          <ul class="calendar">
+            <li>24:00 | <span>David Guetta</span></li>
+            <li>22:00 | <span>Tïesto</span></li>
+            <li>20:00 | <span>Martin Garrix</span></li>
+            <li>19:00 | <span>Steve Aoki</span></li>
+            <li>18:00 | <span>Afrojack</span></li>
+            <li>17:00 | <span>Vintage Culture</span></li>
+          </ul>
+        </div>
+        <!--.scenario-->
+      </div>
+      <!--.scenario-container -->
+
+      <p class="day">Saturday 22</p>
+      <div class="scenario-container">
+        <div class="scenario bg-cyan">
+          <p class="scenario-name">Techno</p>
+
+          <ul class="calendar">
+            <li>24:00 | <span>Reinier Zonneveld</span></li>
+            <li>22:00 | <span>Eric Prydz</span></li>
+            <li>20:00 | <span>Deadmau5</span></li>
+            <li>19:00 | <span>Joris Voorn</span></li>
+            <li>18:00 | <span>Nina Kraviz</span></li>
+            <li>17:00 | <span>Argy</span></li>
+          </ul>
+        </div>
+        <!--.scenario-->
+
+        <div class="scenario bg-yellow">
+          <p class="scenario-name">EDM</p>
+
+          <ul class="calendar">
+            <li>24:00 | <span>Armin Van Buuren</span></li>
+            <li>22:00 | <span>Calvin Harris</span></li>
+            <li>20:00 | <span>Hardwell</span></li>
+            <li>19:00 | <span>Above & Beyond</span></li>
+            <li>18:00 | <span>Diplo</span></li>
+            <li>17:00 | <span>Steve Angello</span></li>
+          </ul>
+        </div>
+        <!--.scenario-->
+      </div>
+      <!--.scenario-container -->
+    </section>
+  </body>
 </html>

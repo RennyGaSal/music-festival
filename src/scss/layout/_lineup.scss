@@ -1,0 +1,62 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+@use 'sass:color';
+
+.lineup {
+    background-color: v.$pink;
+
+    h3, 
+    .day {
+        text-align: center;
+        color: v.$white;
+    }
+
+    .day {
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+}
+
+.scenario-container {
+    @include m.container;
+    @include m.tablet {
+        @include m.grid(2);
+    }
+}
+
+.scenario {
+    padding-top: 2rem;
+
+    .scenario-name{
+        font-size: 3rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+.calendar {
+    @include m.reset-list;
+
+    li {
+        padding: 2.5rem;
+        font-weight: 700;
+        span {
+            font-weight: 900;
+        }
+    }
+}
+
+.bg-yellow {
+    background-color: v.$yellow;
+    li:nth-child(odd) {
+        background-color: color.scale(v.$yellow, $lightness: -5%);
+    }
+}
+
+.bg-cyan {
+    background-color: v.$cyan;
+    li:nth-child(odd) {
+        background-color: color.scale(v.$cyan, $lightness: -5%);
+    }
+}
