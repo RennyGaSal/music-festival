@@ -25,9 +25,14 @@
   },
   "homepage": "https://github.com/RennyGaSal/music-festival#readme",
   "devDependencies": {
+    "cssnano": "^7.1.0",
+    "glob": "^11.0.3",
     "gulp": "^5.0.1",
+    "gulp-postcss": "^10.0.0",
     "gulp-sass": "^6.0.1",
+    "gulp-terser": "^2.1.0",
     "modern-normalize": "^3.0.1",
-    "sass": "^1.90.0"
+    "sass": "^1.90.0",
+    "sharp": "^0.34.3"
   }
 }
